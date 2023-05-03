@@ -8,6 +8,8 @@ The web application allows users to send message to make inquiries
 - Axios to post the form data to the API
 - The name, email, select and message fields are validated
 - Message is displayed at the top of the form indicating submission status
+- Uses a third-party library like nanoid to generate random id
+
 
 **The data to post to the API endpoint is in this format:**
 
