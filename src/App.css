@@ -1,9 +1,13 @@
 .App{
-  background-color: pink;
+background: linear-gradient( rgb(116, 50, 3)  , rgb(248, 245, 245) );
   max-width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 3rem;
+}
+h1{
+  font-size: 4rem;
+  color: rgb(246, 195, 145);
 }

@@ -53,7 +53,7 @@ function Form() {
   }
   return (
     <form className="form" onSubmit={handleSubmit(submission, onSubmitError)}>
-      <p>
+      <p className="submit-status">
         {success
           ? "Submitted sucessfully ✅ "
           : failure
@@ -112,6 +112,8 @@ function Form() {
             name="selectInput"
             {...register("subject", { required: "Choose a track" })}
           >
+            {" "}
+            <option value="">Choose a track</option>
             <option value="option1">Frontend development</option>
             <option value="option2">Backend development</option>
             <option value="option3">Full-stack development</option>
