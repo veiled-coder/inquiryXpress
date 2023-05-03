@@ -61,7 +61,7 @@ function Form() {
           : ""}
       </p>
       <div className="form-group">
-        <label htmlFor="name">NAME</label>
+        <label htmlFor="name">Name:</label>
         <div className="form-group_input">
           <input
             className="inputfield"
@@ -83,7 +83,7 @@ function Form() {
       </div>
       {/* EMAIL */}
       <div className="form-group">
-        <label htmlFor="email">EMAIL</label>
+        <label htmlFor="email">Email:</label>
         <div className="form-group_input">
           <input
             className="inputfield"
